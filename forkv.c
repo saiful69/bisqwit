@@ -6,8 +6,8 @@
 
 int main(){
 
-printf("main process PID: %d", getpid());
+printf("main process PID: %d \n", getpid());
 int pid = fork();
-printf("Child process PID: %d", pid);
+printf("Child process PID: %d \n", pid);
 
 }
