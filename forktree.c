@@ -18,6 +18,9 @@ void forktree(int n)
 int main()
 {
    printf("Start PID: %d \n",getpid());
+   int p;
    printf("Enter a number: ");
+   scanf("%d \n", p);
+   forktree(p);
    return 0;
 }
