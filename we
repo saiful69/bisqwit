@@ -1,0 +1,23 @@
+Nmap scan report for 192.168.2.101
+Host is up (0.0018s latency).
+Not shown: 983 closed ports
+PORT      STATE SERVICE      VERSION
+21/tcp    open  tcpwrapped
+25/tcp    open  netbus       NetBus trojan 1.70
+26/tcp    open  tcpwrapped
+135/tcp   open  msrpc        Microsoft Windows RPC
+139/tcp   open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds Microsoft Windows 7 - 10 microsoft-ds (workgroup: WORKGROUP)
+554/tcp   open  rtsp?
+2869/tcp  open  http         Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+3306/tcp  open  mysql        MySQL (unauthorized)
+3580/tcp  open  http         Mbedthis-Appweb 12.0.0
+5357/tcp  open  http         Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+8080/tcp  open  http         Apache httpd 2.4.17 (PHP/5.6.16)
+10243/tcp open  http         Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+49152/tcp open  msrpc        Microsoft Windows RPC
+49153/tcp open  msrpc        Microsoft Windows RPC
+49154/tcp open  msrpc        Microsoft Windows RPC
+49155/tcp open  msrpc        Microsoft Windows RPC
+MAC Address: 60:E3:27:20:B0:48 (Tp-link Technologies)
+Service Info: Hosts: ENTERPRISE-PC, localhost; OS: Windows; CPE: cpe:/o:microsof
